@@ -2,6 +2,7 @@
 import Header from './components/header.vue';
 import Footer from './components/footer.vue';
 import Nav from './components/nav.vue';
+import Banniere from './components/banniere.vue';
 </script>
 
 <template>
@@ -9,7 +10,8 @@ import Nav from './components/nav.vue';
     <Header />
     <Nav />
     <main>
-      <h1>Bonjour</h1>
+      <Banniere />
+      <h2>Bonjour</h2>
     </main>
     <Footer />
   </div>
