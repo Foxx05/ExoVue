@@ -3,9 +3,12 @@
 </script>
 
 <template>
-  <main>
-    
-  </main>
+  <nav>
+    <ul>
+      <li>The Rider</li>
+      <li>His prize list</li>
+    </ul>
+  </nav>
 </template>
 
 <style scoped>

@@ -4,7 +4,9 @@
 
 <template>
     <section class="banniere">
-        <h1>Banniere</h1>
+        <img src="" alt=""></img>
+        <img src="" alt=""></img>
+        <h1><span>Wout </span><span>Van Aert</span></h1>
     </section>
 </template>
 
