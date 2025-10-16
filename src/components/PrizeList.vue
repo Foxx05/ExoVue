@@ -1,18 +1,15 @@
 <script setup>
-import Header from './header.vue';
 import Footer from './footer.vue';
 import Nav from './nav.vue';
 import Banniere from './banniere.vue';
+import Main from '/mainSectionPrize.vue'
 </script>
 
 <template>
 <div>
-    <Header />
     <Nav />
-    <main>
-      <Banniere />
-      <h2>Bonjour</h2>
-    </main>
+    <Banniere />
+    <Main />
     <Footer />
   </div>
 </template>
