@@ -26,6 +26,7 @@
     position: absolute;
     color: #000;
     padding-left: 120px;
+    padding-bottom: 87px;
 }
 
 span {
