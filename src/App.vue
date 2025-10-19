@@ -10,7 +10,5 @@ import Footer from './components/footer.vue';
 </template>
 
 <style scoped>
-  html, body {
-    background-color: #3D3D3D;
-  }
+
 </style>

@@ -14,9 +14,22 @@
         </section>
         <section class="HisDisciplines">
             <h2>His disciplines</h2>
-            <img src="../assets/images/vanAert_cyclocross.png" alt="Wout Van Aert in the mud on his Cyclocross bike"></img>
-            <img src="../assets/images/vanAert_route.png" alt="Wout Van Aert on his road bike"></img>
-            <img src="../assets/images/vanAert_clm.png" alt="Wout Van Aert on his Time Trial bike"></img>
+            <div class="images">
+                <div class="image-container">
+                    <img src="../assets/images/vanAert_cyclocross.png" alt="Wout Van Aert in the mud on his Cyclocross bike">
+                    <div class="overlay"><h3 class="text-mask">Cyclocross</h3></div>
+                </div>
+
+                <div class="image-container">
+                    <img src="../assets/images/vanAert_route.png" alt="Wout Van Aert on his road bike">
+                    <div class="overlay"><h3 class="text-mask">Road</h3></div>
+                </div>
+
+                <div class="image-container">
+                    <img src="../assets/images/vanAert_clm.png" alt="Wout Van Aert on his Time Trial bike">
+                    <div class="overlay"><h3 class="text-mask">Time Trial</h3></div>
+                </div>
+            </div>
         </section>
     </main>
 </template>
@@ -41,9 +54,59 @@ h2 {
     justify-self: center;
 }
 
-img {
-    width: 100%;
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
 }
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border: 5px solid #000;
+  box-sizing: border-box;
+}
+
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease;
+}
+
+/* Calque gris semi-transparent */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 61, 61, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Texte avec fond transparent (image visible à travers) */
+.text-mask {
+  font-size: 48px;
+  font-weight: bold;
+  background: url('../assets/images/vanAert_cyclocross.png') center/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* Activation au survol */
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+
 @media (min-width: 1024px) {
     main {
         display: grid;
