@@ -30,4 +30,14 @@
   li {
     list-style-type: none;
   }
+
+  a {
+    text-decoration: none;
+    color: #FFF;
+    transition: all .3s;
+  }
+
+  a:hover {
+    color: #E6CF1D;
+  }
 </style>

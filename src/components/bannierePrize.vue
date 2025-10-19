@@ -12,8 +12,8 @@
 <style scoped>
 .banniere {
     display: flex;
-    justify-content: end;
-    align-items: center;
+    justify-content: start;
+    align-items: end;
 }
 
 .banniereImg{
@@ -25,6 +25,12 @@
 .h1Banniere{
     position: absolute;
     color: #000;
-    transform: rotateZ(90deg);
+    padding-left: 120px;
+}
+
+span {
+    display: block;
+    margin: 12px 0;
+    margin-bottom: 27px;
 }
 </style>

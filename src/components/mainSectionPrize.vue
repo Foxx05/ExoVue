@@ -15,5 +15,29 @@
 </template>
 
 <style scoped>
-
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 120px 1fr 80px 1fr 120px;
+        margin: 224px 0 0;
+    }
+    .ALegacy {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+    span {
+        display: block;
+        margin: 12px 0;
+        margin-bottom: 27px;
+    }
+    h2 {
+        justify-self: center;
+    }
+    img {
+        justify-self: end;
+        grid-column: 4/6;
+        grid-row: 1/2;
+    }
+}
 </style>

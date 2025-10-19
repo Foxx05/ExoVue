@@ -22,5 +22,36 @@
 </template>
 
 <style scoped>
-
+@media (min-width: 1024px) {
+    main {
+        display: grid;
+        grid-template-columns: 120px 1fr 80px 1fr 120px;
+        margin: 224px 0 0;
+    }
+    .who {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        justify-self: center;
+    }
+    .ATeammate {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+    .HisDisciplines {
+        grid-column: 4/5;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    span {
+        display: block;
+        margin: 12px 0;
+        margin-bottom: 27px;
+    }
+    h2 {
+        justify-self: center;
+    }
+}
 </style>
