@@ -14,9 +14,9 @@
         </section>
         <section class="HisDisciplines">
             <h2>His disciplines</h2>
-            <img src="../assets/images/" alt="Wout Van Aert in the mud on his Cyclocross bike"></img>
-            <img src="../assets/images/" alt="Wout Van Aert on his road bike"></img>
-            <img src="../assets/images/" alt="Wout Van Aert on his Time Trial bike"></img>
+            <img src="../assets/images/vanAert_cyclocross.png" alt="Wout Van Aert in the mud on his Cyclocross bike"></img>
+            <img src="../assets/images/vanAert_route.png" alt="Wout Van Aert on his road bike"></img>
+            <img src="../assets/images/vanAert_clm.png" alt="Wout Van Aert on his Time Trial bike"></img>
         </section>
     </main>
 </template>

@@ -5,7 +5,7 @@
 <template>
     <section class="banniere">
         <img class="banniereImg" src="../../src/assets/images/bannerPrize.png" alt="Bannière Wout Van Aert"></img>
-        <h1 class="h1Banniere"><span>Wout </span><span>Michel</span></h1>
+        <h1 class="h1Banniere"><span>His </span><span>prize list</span></h1>
     </section>
 </template>
 
