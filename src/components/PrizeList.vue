@@ -1,14 +1,14 @@
 <script setup>
-import Footer from './footer.vue';
-import Nav from './nav.vue';
-import Banniere from './banniere.vue';
-import Main from '/mainSectionPrize.vue'
+import Footer from './components/footer.vue';
+import Nav from './components/nav.vue';
+import BannierePrize from './bannierePrize.vue';
+import Main from './mainSectionPrize.vue'
 </script>
 
 <template>
-<div>
+  <div>
     <Nav />
-    <Banniere />
+    <BannierePrize />
     <Main />
     <Footer />
   </div>
