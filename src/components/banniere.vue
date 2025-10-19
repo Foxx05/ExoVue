@@ -27,11 +27,24 @@
     color: #000;
     transform: rotateZ(90deg);
     margin-right: -70px;
+    font-size: clamp(1.875rem, 5.167vw + 0.8rem, 7rem);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 500px) {
     .h1Banniere{
-        margin-right: 0;
+        margin-right: -100px;
+    }
+}
+
+@media (min-width: 900px) {
+    .h1Banniere{
+        margin-right: -170px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .h1Banniere{
+        margin-right: -190px;
     }
 }
 </style>

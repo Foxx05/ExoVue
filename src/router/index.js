@@ -4,7 +4,7 @@ import Home from '../components/Home.vue'
 import PrizeList from '../components/PrizeList.vue'
 
 const routes = [
-  { path: '/Home.vue', name: 'Home', component: Home },
+  { path: '/', name: 'Home', component: Home },
   { path: '/PrizeList.vue', name: 'PrizeList', component: PrizeList },
 ]
 

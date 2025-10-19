@@ -18,7 +18,7 @@
 main {
     display: flex;
     flex-direction: column;
-    margin: 224px 27px 0;
+    margin: 70px 27px 0;
 }
 span {
     display: block;
@@ -27,6 +27,10 @@ span {
 }
 h2 {
     justify-self: center;
+    font-size: clamp(1.625rem, 2.331vw + 1.14rem, 3.938rem);
+}
+p{
+    font-size: clamp(1rem, 0.252vw + 0.948rem, 1.25rem);
 }
 
 @media (min-width: 1024px) {

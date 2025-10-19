@@ -27,6 +27,7 @@
     color: #000;
     padding-left: 12px;
     padding-bottom: 12px;
+    font-size: clamp(1.875rem, 5.167vw + 0.8rem, 7rem);
 }
 
 span {

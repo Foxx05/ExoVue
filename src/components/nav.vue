@@ -5,11 +5,12 @@
 <template>
   <nav>
     <ul>
-      <li><a href="Home.vue">The Rider</a></li>
-      <li><a href="PrizeList.vue">His prize list</a></li>
+      <li><router-link to="/">The Rider</router-link></li>
+      <li><router-link to="/PrizeList.vue">His prize list</router-link></li>
     </ul>
   </nav>
 </template>
+
 
 <style scoped>
   nav {
