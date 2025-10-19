@@ -1,19 +1,11 @@
 <script setup>
-import Footer from './components/footer.vue';
 import Nav from './components/nav.vue';
-import Banniere from './components/banniere.vue';
-import Main from './components/mainSection.vue'
+import Footer from './components/footer.vue';
 </script>
 
 <template>
-  <div>
-    <Nav />
-    <Banniere />
-    <Main />
-    <Footer />
-  </div>
+  <Nav />
+  <router-view />
+  <Footer />
 </template>
 
-<style scoped>
-
-</style>

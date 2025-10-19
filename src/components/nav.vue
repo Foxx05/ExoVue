@@ -5,7 +5,7 @@
 <template>
   <nav>
     <ul>
-      <li><a href="../App.vue">The Rider</a></li>
+      <li><a href="Home.vue">The Rider</a></li>
       <li><a href="PrizeList.vue">His prize list</a></li>
     </ul>
   </nav>

@@ -4,7 +4,7 @@
 
 <template>
     <section class="banniere">
-        <img class="banniereImg" src="../../src/assets/images/bannerBase.png" alt="Bannière Wout Van Aert"></img>
+        <img class="banniereImg" src="../assets/images/bannerBase.png" alt="Bannière Wout Van Aert"></img>
         <h1 class="h1Banniere"><span>Wout </span><span>Van Aert</span></h1>
     </section>
 </template>
