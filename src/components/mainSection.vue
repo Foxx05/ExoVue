@@ -22,6 +22,28 @@
 </template>
 
 <style scoped>
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 224px 27px 0;
+}
+.HisDisciplines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+span {
+    display: block;
+    margin: 12px 0;
+    margin-bottom: 27px;
+}
+h2 {
+    justify-self: center;
+}
+
+img {
+    width: 100%;
+}
 @media (min-width: 1024px) {
     main {
         display: grid;
@@ -41,17 +63,6 @@
     .HisDisciplines {
         grid-column: 4/5;
         grid-row: 1/3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    span {
-        display: block;
-        margin: 12px 0;
-        margin-bottom: 27px;
-    }
-    h2 {
-        justify-self: center;
     }
 }
 </style>

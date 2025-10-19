@@ -15,6 +15,20 @@
 </template>
 
 <style scoped>
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 224px 27px 0;
+}
+span {
+    display: block;
+    margin: 12px 0;
+    margin-bottom: 27px;
+}
+h2 {
+    justify-self: center;
+}
+
 @media (min-width: 1024px) {
     main {
         display: grid;
@@ -24,14 +38,6 @@
     .ALegacy {
         grid-column: 2/3;
         grid-row: 1/2;
-        justify-self: center;
-    }
-    span {
-        display: block;
-        margin: 12px 0;
-        margin-bottom: 27px;
-    }
-    h2 {
         justify-self: center;
     }
     img {

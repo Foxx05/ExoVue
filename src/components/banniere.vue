@@ -26,5 +26,12 @@
     position: absolute;
     color: #000;
     transform: rotateZ(90deg);
+    margin-right: -70px;
+}
+
+@media (min-width: 1024px) {
+    .h1Banniere{
+        margin-right: 0;
+    }
 }
 </style>

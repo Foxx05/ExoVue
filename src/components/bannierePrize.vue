@@ -25,13 +25,20 @@
 .h1Banniere{
     position: absolute;
     color: #000;
-    padding-left: 120px;
-    padding-bottom: 87px;
+    padding-left: 12px;
+    padding-bottom: 12px;
 }
 
 span {
     display: block;
     margin: 12px 0;
     margin-bottom: 27px;
+}
+
+@media (min-width: 1024px) {
+    .h1Banniere{
+        padding-left: 120px;
+        padding-bottom: 87px;
+    }
 }
 </style>
