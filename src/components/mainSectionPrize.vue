@@ -15,6 +15,22 @@
 </template>
 
 <style scoped>
+
+.oswald-medium {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -28,9 +44,12 @@ span {
 h2 {
     justify-self: center;
     font-size: clamp(1.625rem, 2.331vw + 1.14rem, 3.938rem);
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
 }
 p{
     font-size: clamp(1rem, 0.252vw + 0.948rem, 1.25rem);
+    font-family: "Outfit", sans-serif;
 }
 
 @media (min-width: 1024px) {

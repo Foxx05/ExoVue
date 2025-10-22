@@ -10,6 +10,13 @@
 </template>
 
 <style scoped>
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .banniere {
     display: flex;
     justify-content: end;
@@ -28,23 +35,25 @@
     transform: rotateZ(90deg);
     margin-right: -70px;
     font-size: clamp(1.875rem, 5.167vw + 0.8rem, 7rem);
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
 }
 
 @media (min-width: 500px) {
     .h1Banniere{
-        margin-right: -100px;
+        margin-right: -60px;
     }
 }
 
 @media (min-width: 900px) {
     .h1Banniere{
-        margin-right: -170px;
+        margin-right: -100px;
     }
 }
 
 @media (min-width: 1200px) {
     .h1Banniere{
-        margin-right: -190px;
+        margin-right: -130px;
     }
 }
 </style>

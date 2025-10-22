@@ -10,6 +10,13 @@
 </template>
 
 <style scoped>
+.oswald-bold {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .banniere {
     display: flex;
     justify-content: start;
@@ -28,6 +35,8 @@
     padding-left: 12px;
     padding-bottom: 12px;
     font-size: clamp(1.875rem, 5.167vw + 0.8rem, 7rem);
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
 }
 
 span {

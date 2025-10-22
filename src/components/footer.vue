@@ -4,7 +4,6 @@
 
 <template>
   <footer>
-    <a href="./credits.vue">Crédits</a>
     <small>© Jarne De Scheerder et Théo Colpaert</small>
   </footer>
 </template>
@@ -12,6 +11,8 @@
 <style scoped>
   footer {
     display: grid;
+    height: 100px;
+    margin-top: 75px;
   }
 
   small {
