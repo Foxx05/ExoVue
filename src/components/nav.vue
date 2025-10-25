@@ -13,6 +13,13 @@
 
 
 <style scoped>
+  .outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   nav {
     width: 100%;
     display: flex;
@@ -36,6 +43,8 @@
     text-decoration: none;
     color: #FFF;
     transition: all .3s;
+    font-size: clamp(1rem, 0.252vw + 0.948rem, 1.25rem);
+    font-family: "Outfit", sans-serif;
   }
 
   a:hover {

@@ -29,14 +29,21 @@
     z-index: 0;
 }
 
+.h1Banniere span {
+    margin: 0;
+}
+
 .h1Banniere{
     position: absolute;
     color: #000;
     transform: rotateZ(90deg);
-    margin-right: -70px;
+    margin-right: -56px;
     font-size: clamp(1.875rem, 5.167vw + 0.8rem, 7rem);
     font-family: "Oswald", sans-serif;
     font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 @media (min-width: 500px) {
@@ -48,12 +55,14 @@
 @media (min-width: 900px) {
     .h1Banniere{
         margin-right: -100px;
+        gap: 20px;
     }
 }
 
 @media (min-width: 1200px) {
     .h1Banniere{
         margin-right: -130px;
+        gap: 30px;
     }
 }
 </style>
