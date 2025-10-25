@@ -122,7 +122,7 @@ p{
   font-size: 48px;
   font-weight: bold;
   background: url('../assets/images/vanAert_cyclocross.png') center/cover;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
